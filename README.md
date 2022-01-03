@@ -2,7 +2,7 @@
 
 🚶‍♂️🔨HTTP Vadivelu Status codes
 
-![intro](https://github.com/anoram/http-vadivelu/raw/master/src/static/intro.jpg)
+![intro](https://github.com/anoram/http-vadivelu/blob/master/static/intro.jpg)
 
 This is the sveltekit version of the repo, the old repo is [here](https://github.com/anoram/http-vadivelu-legacy)
 
