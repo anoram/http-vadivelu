@@ -3,8 +3,6 @@ export async function handle({ request, resolve }) {
 
 	return {
 		...response,
-		headers: {
-			'X-Vadivelu': 'Ahaan'
-		}
+	
 	};
 }
