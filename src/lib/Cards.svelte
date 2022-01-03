@@ -6,7 +6,7 @@
 
 <div class="grid grid-cols-3 gap-4 py-8 ">
 	{#each codes as { code, desc, type, file }}
-		<a href={`${base}/api/${type[0]}/${file}`} target="_blank">
+		<a href={`${base}/${type[0]}/${file}`} target="_blank">
 			<div class="card dark:bg-gray-900 dark:text-white">
 				<div class="overflow-y-hidden h-40 w-full">
 					<img
