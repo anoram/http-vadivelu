@@ -3,6 +3,5 @@ export async function handle({ request, resolve }) {
 
 	return {
 		...response,
-	
 	};
 }

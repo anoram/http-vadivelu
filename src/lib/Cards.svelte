@@ -10,7 +10,9 @@
 			<div class="card dark:bg-gray-900 dark:text-white">
 				<div class="overflow-y-hidden h-40 w-full">
 					<img
-						src={`${base}/${type[0]}/${file}`}
+						src={`/${type[0] === 'gif' ? 'gif' : 'jpg'}/${file}.${
+							type[0] === 'gif' ? 'gif' : 'jpg'
+						}`}
 						alt={`${code}`}
 						class="w-full h-full object-fit object-top"
 					/>
