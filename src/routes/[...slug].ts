@@ -5,6 +5,7 @@ export async function get({ params }) {
 	const url = `${envPath}/${type}/${file}.${type}`;
 	const data = await fetch(url).then((res) => res.arrayBuffer());
 	return {
+		accept: '*/*',
 		headers: {
 			'Content-Type': 'image/gif'
 		},
