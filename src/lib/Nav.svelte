@@ -30,7 +30,7 @@
 			<img src="ahaan.png" alt="ahaan" class="w-20" />
 		</div>
 		<div>
-			<p>On demand HTTP Codes with images</p>
+			<p class="text-xs md:text-base">On demand HTTP Codes with images</p>
 		</div>
 		<div class="justify-self-end flex gap-4 items-center">
 			<a href="https://github.com/anoram/http-vadivelu" target="_blank">github</a>

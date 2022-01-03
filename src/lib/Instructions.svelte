@@ -25,9 +25,9 @@
 
 <style lang="postcss">
 	p {
-		@apply py-2;
+		@apply lg:text-base py-2 text-sm;
 	}
 	pre {
-		@apply text-pink-600;
+		@apply text-pink-600 text-sm lg:text-base;
 	}
 </style>
