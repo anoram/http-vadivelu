@@ -1,6 +1,8 @@
+import { dev } from '$app/env';
 export async function get({ params }) {
 	const [type, file] = params.slug.split('/');
-	const url = `http://localhost:3000/${type}/${file}.${type}`;
+	const envPath = dev ? 'http://localhost:3000' : 'https://vadivelu.anoram.com';
+	const url = `${envPath}/${type}/${file}.${type}`;
 	const data = await fetch(url).then((res) => res.arrayBuffer());
 	return {
 		headers: {
