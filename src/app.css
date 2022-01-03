@@ -1,0 +1,9 @@
+/* Write your global styles here, in PostCSS syntax */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;400&display=swap');
+@tailwind base;
+body {
+	font-family: 'IBM Plex Sans', sans-serif;
+	@apply dark:bg-black;
+}
+@tailwind components;
+@tailwind utilities;
