@@ -4,7 +4,7 @@
 	export let codes;
 </script>
 
-<div class="grid grid-cols-3 gap-4 py-8 ">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-8">
 	{#each codes as { code, desc, type, file }}
 		<a href={`${base}/${type[0]}/${file}`} target="_blank">
 			<div class="card dark:bg-gray-900 dark:text-white">
